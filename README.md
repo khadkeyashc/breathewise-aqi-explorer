@@ -35,7 +35,7 @@ Users can search any global city and instantly view real-time AQI data, pollutan
 ---
 
 ## 🏛️ Project Structure
-
+---
 breathewise-aqi-explorer/
 │
 ├── server/ # Backend (Node.js)
