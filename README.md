@@ -35,25 +35,7 @@ Users can search any global city and instantly view real-time AQI data, pollutan
 ---
 
 
-### 🧰 Running the Project Locally
--4️⃣ Start Backend
--npm run dev
--Backend runs at:
--👉 http://localhost:5000
-
-💻 Frontend Setup (React + Vite)
--5️⃣ Install Dependencies
--cd ../client
--npm install
--6️⃣ Create Frontend .env
--client/.env
--VITE_API_BASE_URL=http://localhost:5000/api
-7️⃣ Start Frontend
--npm run dev
--Frontend runs at:
--👉 http://localhost:5173
-
-
+---
 🎨 UI Highlights
 Gradient pastel background with animation
 Central dashboard layout with elevation
