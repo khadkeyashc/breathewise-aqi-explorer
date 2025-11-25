@@ -1,35 +1,36 @@
 # 🌬️ BreatheWise AQI Explorer
 
-A full-stack Air Quality Index (AQI) Explorer built using **Node.js (Express)** and **React (Vite)**.  
-This application allows users to search any city and view real-time AQI, pollutant breakdown, health guidance, and visual gauge indicators.
+A modern, full-stack **Air Quality Index (AQI) Explorer** built with **Node.js (Express)** and **React (Vite)**.  
+Users can search any global city and instantly view real-time AQI data, pollutant breakdown, weather parameters, and safety guidance — all displayed through a clean, animated UI.
 
-This project is created as part of the **Finfactor Technologies – Software Engineer Coding Challenge**.
 
 ---
 
-## 🚀 Features
+## 🔥 Features
 
-### 🔍 City Search
-- Search any city globally.
-- Real-time AQI fetched via backend from WAQI API.
-- Graceful error handling for invalid cities.
+### 🔍 **City Search**
+- Search any city worldwide  
+- Real-time AQI from the WAQI API  
+- Smart error handling for invalid or unknown cities  
 
-### ⚙️ Backend (Node.js + Express)
-- Acts as **secure proxy API** (hides WAQI token).
-- Normalizes WAQI response for frontend usage.
-- **In-memory caching system**:
-  - Cache expiry (TTL)
-  - Max-size eviction
-  - Much faster repeated searches.
-- Clean, REST-style architecture.
+### ⚙️ **Backend (Node.js + Express)**
+- Acts as a **secure proxy API** to hide your WAQI token  
+- Normalizes vendor API to clean frontend-friendly JSON  
+- **In-Memory Caching System**  
+  - Cache expiry (TTL)  
+  - Max cache size with eviction  
+  - Ultra-fast repeat responses  
+- Follows clean REST practices  
+- Handles all edge-case conditions gracefully  
 
-### 🎨 Frontend (React + Vite)
-- Clean, animated, professional dashboard UI.
-- AQI gauge visualization.
-- Pollutant grid (PM2.5, PM10, O₃, NO₂, SO₂, CO).
-- Activity guidance chips based on AQI band.
-- Responsive modern design with gradient animation.
-- High-performance Vite frontend setup.
+### 🎨 **Frontend (React + Vite)**
+- Beautiful gradient-animated background  
+- Smooth card animations & shadows  
+- AQI gauge visualization  
+- Pollutant breakdown cards  
+- Activity guidance chips  
+- Fully responsive layout  
+- Professional dashboard-style UI  
 
 ---
 
@@ -61,13 +62,56 @@ breathewise-aqi-explorer/
 │ │ ├── InsightPills.jsx
 │ │ └── AqiScale.jsx
 │ └── package.json
+│
+└── README.md
+---
+
+# 🧰 Running the Project Locally
+4️⃣ Start Backend
+npm run dev
+Backend runs at:
+👉 http://localhost:5000
+
+💻 Frontend Setup (React + Vite)
+5️⃣ Install Dependencies
+cd ../client
+npm install
+6️⃣ Create Frontend .env
+client/.env
+VITE_API_BASE_URL=http://localhost:5000/api
+7️⃣ Start Frontend
+npm run dev
+Frontend runs at:
+👉 http://localhost:5173
+
+
+🎨 UI Highlights
+Gradient pastel background with animation
+Central dashboard layout with elevation
+Large AQI number and category badge
+Semi-circle AQI gauge
+Pollutant metric cards with units
+Health/activity guidance chips
+Excellent spacing & typography
+Fully responsive
+
+🔮 Future Enhancements
+If extended, features may include:
+User favorites
+Search history
+AQI trend charts
+Global interactive AQI map
+Redis caching
+Rate limiting
+Dark mode
+Unit testing (backend & frontend)
 
 👤 Author
 Yash Khadke
-Full-Stack Developer (MERN)
+Full-Stack Developer (MERN / Node.js / React)
 GitHub: https://github.com/khadkeyashc
 
 🙏 Acknowledgements
-WAQI API – Real-time AQI Data
-React + Vite – Frontend engine
-Express.js – Backend framework
+World Air Quality Index (WAQI) API
+React + Vite
+Node.js + Express
