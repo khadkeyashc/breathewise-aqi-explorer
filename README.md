@@ -32,30 +32,6 @@ Users can search any global city and instantly view real-time AQI data, pollutan
 - Fully responsive layout  
 - Professional dashboard-style UI  
 
----
-
-
----
-🎨 UI Highlights
-Gradient pastel background with animation
-Central dashboard layout with elevation
-Large AQI number and category badge
-Semi-circle AQI gauge
-Pollutant metric cards with units
-Health/activity guidance chips
-Excellent spacing & typography
-Fully responsive
-
-🔮 Future Enhancements
-If extended, features may include:
-User favorites
-Search history
-AQI trend charts
-Global interactive AQI map
-Redis caching
-Rate limiting
-Dark mode
-Unit testing (backend & frontend)
 
 👤 Author
 Yash Khadke
