@@ -33,12 +33,12 @@ Users can search any global city and instantly view real-time AQI data, pollutan
 - Professional dashboard-style UI  
 
 
-###👤** Author**
+👤 Author
 Yash Khadke
 Full-Stack Developer
 GitHub: https://github.com/khadkeyashc
 
-###🙏** Acknowledgements**
+🙏 Acknowledgement
 World Air Quality Index (WAQI) API,
 React + Vite,
 Node.js + Express.
