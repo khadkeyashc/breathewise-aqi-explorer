@@ -34,11 +34,11 @@ Users can search any global city and instantly view real-time AQI data, pollutan
 
 
 ###👤** Author**
--Yash Khadke
--Full-Stack Developer (MERN / Node.js / React)
--GitHub: https://github.com/khadkeyashc
+Yash Khadke
+Full-Stack Developer
+GitHub: https://github.com/khadkeyashc
 
 ###🙏** Acknowledgements**
--World Air Quality Index (WAQI) API
--React + Vite
--Node.js + Express
+World Air Quality Index (WAQI) API,
+React + Vite,
+Node.js + Express.
