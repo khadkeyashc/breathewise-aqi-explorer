@@ -34,35 +34,6 @@ Users can search any global city and instantly view real-time AQI data, pollutan
 
 ---
 
-## 🏛️ Project Structure
-breathewise-aqi-explorer/
-│
-├── server/ # Backend (Node.js)
-│ ├── src/
-│ │ ├── index.js # Entry file
-│ │ ├── cache.js # Cache logic
-│ │ ├── apiClient.js # WAQI API caller
-│ │ ├── transform.js # Normalize WAQI JSON
-│ │ └── routes/
-│ │ └── cityRoutes.js # /api/city/:name endpoint
-│ ├── package.json
-│ └── .env.example
-│
-├── client/ # Frontend (React + Vite)
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── index.css # UI styling + animations
-│ │ ├── main.jsx
-│ │ └── components/
-│ │ ├── SearchPanel.jsx
-│ │ ├── CitySummary.jsx
-│ │ ├── AqiGauge.jsx
-│ │ ├── PollutantGrid.jsx
-│ │ ├── InsightPills.jsx
-│ │ └── AqiScale.jsx
-│ └── package.json
-│
-└── README.md
 
 # 🧰 Running the Project Locally
 4️⃣ Start Backend
